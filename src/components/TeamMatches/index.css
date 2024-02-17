@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.team-banner {
+  height: 25vh;
+  width: 100%;
+}
+
+.bg-container {
+  background-color: red;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  font-size: 22px;
+  font-family: roboto;
+}
+
+.recent-match-team-card-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

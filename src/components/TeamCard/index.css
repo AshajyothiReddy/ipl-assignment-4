@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.team-card {
+  height: 120px;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+  border-radius: 8px;
+  border: white 1px solid;
+  margin: 20px;
+}
+
+.teamImage {
+  height: 70px;
+  width: 70px;
+}
+
+.team-heading {
+  color: white;
+  font-size: 24px;
+  font-family: roboto;
+}

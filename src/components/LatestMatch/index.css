@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.latest-match-card {
+  background-color: balck;
+  width: 70%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.upper-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.upper-heading-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  color: white;
+  font-size: 30px;
+  font-family: Bree serif;
+  margin-bottom: 2px;
+}
+
+.heading {
+  color: white;
+  font-size: 24px;
+  font-family: Bree serif;
+  margin-bottom: 2px;
+}
+
+.desc {
+  color: white;
+  font-size: 20px;
+  font-family: Bree serif;
+  margin-bottom: 2px;
+}
+.line {
+  width: 100%;
+  color: white;
+}
+
+.team-logo {
+  height: 90px;
+  width: 70px;
+  align-self: center;
+}
+
+.lower-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
